@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.eisenhower-matrix-box {
+.eisenhower-box {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.eisenhower-matrix-box img {
+.eisenhower-box img {
   width: 100%;
 }
-.eisenhower-matrix-box .eisenhower-matrix-box-more-inf {
+.eisenhower-box .eisenhower-more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.eisenhower-matrix-box { text-align: center;
+.eisenhower-box { text-align: center;
 }
 }
 .to-do-section {
@@ -138,11 +138,11 @@ ul li input[type="text"] {
   display:none
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display:none;
 }
