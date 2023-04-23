@@ -48,16 +48,16 @@
 }
 
 #incomplete-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task {
-  list-style:none;
+  list-style: none;
 }
 
 .to-do-header {
-  list-style:none;
+  list-style: none;
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -70,13 +70,13 @@
 .to-do-section__add-item-div__input-div__input,
 .task__checkbox-input,
 .task__input {
-  outline:none;
+  outline: none;
 }
 
 .task__edit-button,
 .task__delete-button,
 .to-do-section__add-item-div__input-div__button {
-  outline:none;
+  outline: none;
   background: none;
   border: 0px;
   color: #888;
@@ -179,14 +179,14 @@
 
 /* Edit Task */
 .task__input {
-  display:none;
+  display: none;
 }
 
 .edit-mode .task__input  {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .task__label {
-  display:none;
+  display: none;
 }
