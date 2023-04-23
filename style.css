@@ -12,7 +12,11 @@
   text-align: right;
 }
 
-.eisenhower-box__img {
+.eisenhower-box__figure {
+  margin: 0;
+}
+
+.eisenhower-box__figure__img {
   width: 100%;
 }
 
@@ -116,7 +120,7 @@
   font-family: Lato, sans-serif;
   color: #888;   
 }
-
+.to-do-section__add-item-div__input-div__input:focus,
 .task__input:focus {
   color: #333;
 }
