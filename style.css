@@ -4,6 +4,7 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .eisenhower-box {
   width: 500px;
   margin: 0 auto;
@@ -21,14 +22,19 @@
 }
 
 @media (max-width:768px) {
-.eisenhower-box { text-align: center;
+
+  .eisenhower-box { 
+    text-align: center;
+  }
+
 }
-}
+
 .to-do-section {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task__input,
 .task__label,
 .to-do-section__add-item-div__input-div__input {
@@ -36,6 +42,7 @@
   display: inline-block;
   flex-grow: 1
 }
+
 .to-do-section__add-item-div__input-div {
   display: flex;
 }
@@ -85,9 +92,7 @@
   color: #3a3A3a;
 }
 
-
 /* Heading */
-
 .to-do-section__add-item-div__label {
   color: #333;
   font-weight: 700;
@@ -127,7 +132,6 @@
 }
 
 /* Task list */
-
 .task {
   overflow: hidden;
   padding: 20px 0;
