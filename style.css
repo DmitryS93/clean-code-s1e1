@@ -40,7 +40,7 @@
 .to-do-section__add-item-div__input-div__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .to-do-section__add-item-div__input-div {
@@ -67,15 +67,11 @@
   text-transform: uppercase;
 }
 
-.to-do-section__add-item-div__input-div__input,
-.task__checkbox-input,
-.task__input {
+.to-do-section__add-item-div__input-div__input, .task__checkbox-input, .task__input {
   outline: none;
 }
 
-.task__edit-button,
-.task__delete-button,
-.to-do-section__add-item-div__input-div__button {
+.task__edit-button, .task__delete-button, .to-do-section__add-item-div__input-div__button {
   outline: none;
   background: none;
   border: 0px;
@@ -86,9 +82,7 @@
   cursor: pointer;
 }
 
-.task__edit-button:hover,
-.task__delete-button:hover,
-.to-do-section__add-item-div__input-div__button:hover {
+.task__edit-button:hover, .task__delete-button:hover, .to-do-section__add-item-div__input-div__button:hover {
   color: #3a3A3a;
 }
 
@@ -154,7 +148,7 @@
 }
 
 .task__input {
-  width: 226px
+  width: 226px;
 }
 
 .task__delete-button__img {
