@@ -187,13 +187,13 @@
   display: none;
 }
 
-.edit-mode 
+.task-edit
 .task__input  {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode 
+.task-edit
 .task__label {
   display: none;
 }
